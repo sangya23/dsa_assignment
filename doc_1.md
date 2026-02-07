@@ -34,7 +34,7 @@ The functions used are:
 
 * int isBalanced(char exp\[]):
 
-&nbsp;	It checks whether all parentheses in the expression is balanced by traversing the expression and pushing opening bracketing using 'push' function, checking whether all opening brackets have a matching closing bracket using 'pop' function and calling function 'isMatching'. 
+&nbsp;	It checks whether all parentheses in the expression is balanced by traversing the expression and pushing opening bracket using 'push' function, checking whether all opening brackets have a matching closing bracket using 'pop' function and calling function 'isMatching'. 
 
 It returns 1 if the brackets are balanced and 0 if not.
 
@@ -44,9 +44,9 @@ It returns 1 if the brackets are balanced and 0 if not.
 (c) An overview of how the main() method is organized.
 
 * The main() method asks users to input an expression, then calls the 'isBalanced' function to check whether the expression is balanced and displays whether the parentheses are balanced or not balanced.
-* 
 
 (d) A sample output of a complete run of the program.
+
 
 * Output when parentheses are balanced:
 
