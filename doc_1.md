@@ -1,4 +1,4 @@
-#Documentation for Q1
+Documentation for Q1
 
 
 
@@ -6,7 +6,7 @@ This program checks whether a given mathematical expression contains a balanced 
 
 
 
-##(a) Explanation of how the data structures are defined:
+(a) Explanation of how the data structures are defined:
 
 * Stack: 
 
@@ -14,7 +14,7 @@ This program checks whether a given mathematical expression contains a balanced 
 
 
 
-##(b) Description of the functions implemented, including their purpose:
+(b) Description of the functions implemented, including their purpose:
 
 
 
@@ -41,12 +41,12 @@ It returns 1 if the brackets are balanced and 0 if not.
 
 
 
-##(c) An overview of how the main() method is organized.
+(c) An overview of how the main() method is organized.
 
 * The main() method asks users to input an expression, then calls the 'isBalanced' function to check whether the expression is balanced and displays whether the parentheses are balanced or not balanced.
 * 
 
-##(d) A sample output of a complete run of the program.
+(d) A sample output of a complete run of the program.
 
 * Output when parentheses are balanced:
 
