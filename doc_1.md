@@ -50,13 +50,13 @@ It returns 1 if the brackets are balanced and 0 if not.
 
 * Output when parentheses are balanced:
 
-!\[Program Output](output images/output\_1\_1.png)
+!\[Program Output](https://github.com/sangya23/dsa_assignment/blob/18bcf8ee525cdb80d17f3c318ae588559b2e26ea/output%20images/output_1_1.png)
 
 
 
 * Output when parentheses are not balanced:
 
-!\[Program Output](output images/output\_1\_2.png)
+!\[Program Output](output images/output_1_2.png)
 
 
 
