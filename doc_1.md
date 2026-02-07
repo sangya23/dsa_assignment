@@ -56,7 +56,7 @@ It returns 1 if the brackets are balanced and 0 if not.
 
 * Output when parentheses are not balanced:
 
-![Program Output](output images/output_1_2.png)
+![Program Output](https://github.com/sangya23/dsa_assignment/blob/4164cbd6e1bf8e56646cdbedd5409143c98693c0/output%20images/output_1_2.png)
 
 
 
