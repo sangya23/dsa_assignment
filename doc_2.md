@@ -3,7 +3,7 @@
 This program converts a given infix mathematical expression to postfix and then evaluates it.
 
 ## (a) Explanation of how the data structures are defined:
-### * Stack: 
+* ### Stack: 
 
 &nbsp;	Stack is implemented using array 'stack' and an integer 'top' to track the top element. 
 There are two stacks are used. The first stack is to store operators during conversion from infix to postfix and the second to store operands to evaluate postfix expression.
@@ -14,19 +14,19 @@ There are two stacks are used. The first stack is to store operators during conv
 
 The functions used are:
 
-### * void push(char x):
+* ### void push(char x):
 &nbsp;	It pushes a character onto the stack by increasing the value of top.
 
-### * char pop(): 
+* ### char pop(): 
 &nbsp;	It removes and returns the top element by decreasing the value of top.
 
-### * int priority(char x):
+* ### int priority(char x):
 &nbsp;	It returns the precedence of operator.
 
-### * void infixToPostfix(char infix\[], char postfix\[]):
+* ### void infixToPostfix(char infix\[], char postfix\[]):
 &nbsp;	It converts infix to postfix by adding operands to array and pushing and popping the operators based on precedence.
 
-### * void evaluatePostfix(char postfix\[]):
+* ### void evaluatePostfix(char postfix\[]):
 
 &nbsp;	It evaluates the postfix expression where numbers are pushed to an integer stack and each operator pops 2 operands, performs the operation and pushes the result onto the stack again. The final result is returned from the stack.
 
