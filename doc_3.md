@@ -1,12 +1,14 @@
-Documentation for Q3
+# Documentation for Q3
 
-This program prints the forward and reverse travarsal for a doubly linked list.
+This program prints the forward and reverse traversal for a doubly linked list.
 
-(a) Explanation of how the data structures are defined:
+## (a) Explanation of how the data structures are defined:
 
 * Doubly linked list:
 
 &nbsp;	Doubly linked list is implemented by declaring a structure 'Node' with integer data, pointer prev which points to previous node and a pointer next which points to the next node.
+
+## (b) Description of the functions implemented, including their purpose:
 
 The functions used are:
 
@@ -27,12 +29,12 @@ The functions used are:
 &nbsp;	It displays the data of each node from first to last.
 
 
-(c) An overview of how the main() method is organized.
+## (c) An overview of how the main() method is organized.
 
 * The main() calls functions 'insertatbegin' and 'insertatend' to insert nodes to linked list and calls 'forwardtraverse' and 'reversetraverse' to display the data of each node.
 
 
-(d) A sample output of a complete run of the program.
+## (d) A sample output of a complete run of the program.
 
 ![Program Output](https://github.com/sangya23/dsa_assignment/blob/7350d373a1d4cec59c0c30074c5f4c46b9fe9382/output%20images/output_3.png)
 
