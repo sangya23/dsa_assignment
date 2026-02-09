@@ -4,7 +4,7 @@ This program checks whether a given mathematical expression contains a balanced 
 
 ## (a) Explanation of how the data structures are defined:
 
-### * Stack:
+* ### Stack:
   &nbsp; Stack is implemented using array 'stack' and an integer 'top' to track the top element.
 
 
@@ -13,16 +13,16 @@ This program checks whether a given mathematical expression contains a balanced 
 
 The functions used are:
 
-### * void push(char c):
+* ### void push(char c):
   &nbsp; It pushes opening bracket to the stack by increasing the top and inserting the bracket to the top.
 
-### * int pop():
+* ### int pop():
   &nbsp; It pops the variable at the top and returns it.
 
-### * int isMatching(char open, char close):
+* ### int isMatching(char open, char close):
   &nbsp; It checks whether the opening bracket has a matching closing bracket and returns if brackets match, else it returns 0.
 
-### * int isBalanced(char exp\[]):
+* ### int isBalanced(char exp\[]):
   &nbsp; It checks whether all parentheses in the expression is balanced by traversing the expression and pushing opening bracket using 'push' function, checking whether all opening brackets have a matching closing bracket using 'pop' function and calling function 'isMatching'. 
 It returns 1 if the brackets are balanced and 0 if not.
 
