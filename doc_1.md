@@ -4,7 +4,7 @@ This program checks whether a given mathematical expression contains a balanced 
 
 ## (a) Explanation of how the data structures are defined:
 
-* Stack:
+### * Stack:
   &nbsp; Stack is implemented using array 'stack' and an integer 'top' to track the top element.
 
 
