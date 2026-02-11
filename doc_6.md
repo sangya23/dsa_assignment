@@ -1,6 +1,6 @@
-# Documentation for Q1
+# Documentation for Q6
 
-This program demonstrate how to build min and max heap from a given array using the heap data structure.
+This program demonstrates how to build min and max heap from a given array using the heap data structure.
 
 ## (a) Explanation of how the data structures are defined:
 
